@@ -1,4 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
-.content {
-    background-color: red;
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #31548a;
+}
+
+.header__title {
+  color: white;
+  font-size: 36px;
+  margin: 0 auto;
+}
+
+.body {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.body__pie-chart {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: conic-gradient(red 120deg, green 120deg 240deg, blue 240deg);
+}
+
+.body__sunburst {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: repeating-conic-gradient(red 0 15deg, darkred 0 30deg);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 200px;
+  background-color: #31548a;
+}
+
+.footer__copyright {
+  padding-bottom: 16px;
 }
